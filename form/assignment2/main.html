@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Place Your Order Here!</h1>
+        <form action="javascript:void(0);">
+            <fieldset>
+            <legend><div class="number">1</div> Your Info:</legend>
+            <label for="name">Name:</label><br>
+        <input type="text" id="name" name="user_name"><br>
+            <label for="mail">Email:</label><br>
+        <input type="email" id="mail" name="user_email"><br>
+            <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="user_tel"><br>
+            <label for="address">Address:</label><br>
+            <textarea></textarea>
+        </fieldset>
+        <fieldset>
+            <legend><div class="number">2</div> Pizza Choice:</legend>
+            <input type="radio" id="cheeseandonion" name="pizza"><label>Cheese and Onion</label>
+            <input type="radio" id="veggiedelight" name="pizza"><label>Veggie Delight</label>
+            <input type="radio" id="capsicumandonion" name="pizza"><label>Capsicum and Onion</label>
+            <input type="radio" id="margherita" name="pizza"><label>Margherita</label><br>
+            <input type="checkbox" id="glutenfree" name="glutenfree"><label>Gluten Free</label>
+        </fieldset>
+        <fieldset>
+            <legend><div class="number">3</div> Toppings:</legend>
+            <input type="radio" id="extra cheese" name="topping"><label>Extra Cheese</label>
+            <input type="radio" id="corn" name="topping"><label>Corn</label>
+            <input type="radio" id="capsicum" name="topping"><label>Capsicum</label>
+            <input type="radio" id="olives" name="topping"><label>Olives</label>
+            <input type="radio" id="mushroom" name="topping"><label>Mushroom</label>
+        </fieldset>
+            <fieldset>
+                <legend><div class="number">4</div> Your Sides:</legend>
+            <input type="radio" id="bread" name="side"><label>Garlic Bread</label>
+            <input type="radio" id="nobread" name="side"><label>No Garlic Bread</label><br>
+                <input type="checkbox" id="glutenfree" name="glutenfree"><label>Gluten Free?</label>
+        </fieldset>
+    <fieldset>
+        <legend><div class="number">6</div> Any Allergies/Special Requests:</legend>
+    <textarea></textarea>
+    </fieldset>
+    <input class="button" type="submit" value="Place Order">
+    </form>
+    </div>
+</body>
+</html>
